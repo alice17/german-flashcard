@@ -136,5 +136,51 @@ const translations = {
     // Alerts and Errors
     noWordsForLevel: "В списке нет слов уровня {level}.",
     csvError: "Ошибка загрузки данных игры. Проверьте CSV-файл."
+  },
+
+  // --- Traduzioni in Italiano ---
+  it: {
+    // Schermata di Configurazione
+    configTitle: "Configura Gioco",
+    levelLabel: "Livello delle parole:",
+    allLevels: "Tutti i Livelli",
+    quantityLabel: "Quantità di parole:",
+    allWords: "Tutte",
+    startGameBtn: "Inizia Gioco",
+    languageLabel: "Lingua dell'Interfaccia:",
+    csvLabel: "File di Parole:",
+    timeoutLabel: "Tempo per la prossima carta:",
+    slow: "Lento (5s)",
+    normal: "Normale (3.5s)",
+    fast: "Veloce (2s)",
+    pleaseSelectCSV: "Per favore, seleziona...",
+    savedErrorsCounter: "Hai {count} parole da esercitarti.",
+    noSavedErrors: "Non ci sono errori salvati da esercitare.",
+    trainWrongWordsBtn: "Esercita Parole Sbagliate",
+    clearListBtn: "Cancella Lista",
+    startNormalGameLabel: "... o inizia un nuovo gioco normale:",
+    errorListCleared: "La lista degli errori è stata cancellata!",
+
+    // Schermata di Gioco
+    newGameBtn: "Nuovo Gioco",
+    correctCounter: "Corrette:",
+    errorCounter: "Errori:",
+    levelLabelShort: "Livello:",
+    loading: "Caricamento...",
+
+    // Feedback
+    correctFeedback: "Corretto! Esempio:",
+    incorrectFeedback: "Sbagliato! La risposta corretta era:",
+    
+    // Fine del Gioco
+    endGameTitle: "Fine del Gioco!",
+    finalScore: "Il tuo punteggio: {acertos} corrette e {erros} errori.",
+    errorListTitle: "Parole che hai sbagliato:",
+    playAgainBtn: "Gioca Ancora",
+    noErrors: "Congratulazioni, non hai fatto nessun errore!",
+
+    // Avvisi ed Errori
+    noWordsForLevel: "Non ci sono parole del livello {level} nella lista.",
+    csvError: "Errore nel caricamento dei dati del gioco. Controlla il file CSV."
   }
 };
